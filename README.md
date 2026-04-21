@@ -20,41 +20,6 @@ This laboratory activity focuses on developing a menu-driven Python program to m
 - tests/: Contains screenshots of the required test runs (Create, Read, Update).
 - README.md: Documentation and execution instructions
 
-Here is the adapted laboratory report structure, tailored specifically for the Hardware Inventory System CLI we built earlier. It perfectly mirrors the format, headings, and details of your Lab Activity 2 template.
-
-Lab Activity 3: Hardware Inventory Management System
-
-Course: CPE106L-4 - Software Design Laboratory
-Student Name: Norberto Ayat III
-Professor: Dr. John De Guzman Tarampi
-
-Description
-This laboratory activity focuses on developing a menu-driven Python program to manage a structured hardware inventory system. The program demonstrates the practical application of core Python data types:
-
-Strings: Used for user input (item names, tags) and formatted data display.
-
-Lists: Used as the primary "database" to store multiple inventory records, as well as to hold the dynamic tags for each item.
-
-Tuples: Used for immutable data, specifically representing fixed warehouse locations (e.g., Aisle and Rack).
-
-Dictionaries: Used to structure individual hardware profiles, grouping the name, quantity, location, and tags together.
-
-Program Features (CRUD Operations)
-
-Create: Allows the user to input new hardware items, including stock quantity and initial tags.
-
-Read/Display: Lists all hardware components currently stored in the system, utilizing index-based numbering.
-
-Update: Specifically allows appending new descriptive tags to an existing item's record.
-
-Project Structure
-
-src/: Contains main.py (the menu-driven inventory logic).
-
-tests/: Contains screenshots of the required test runs (Create, Read, Update).
-
-README.md: Documentation and execution instructions.
-
 # How to Run the Activity
 
 This activity was developed and tested using OneCompiler.
